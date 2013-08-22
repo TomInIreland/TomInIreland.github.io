@@ -1,0 +1,14 @@
+{
+"nodes":[
+{"name":"Electricity"},
+{"name":"Diesel"},
+{"name":"Natural Gas"},
+{"name":"Transport","IOs":13,"NCs":5,"obj":"-12%"},
+{"name":"HVAC","IOs":10,"NCs":7,"obj":"no target"}
+],
+"links":[
+{"source":"Diesel","target":"Transport","value":60},
+{"source":"Electricity","target":"HVAC","value":72},
+{"source":"Natural Gas","target":"Transport","value":90},
+{"source":"Natural Gas","target":"HVAC","value":108}
+]}
